@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0; /* Agrega padding para evitar superposición */
+}
+
+.descuento{
+    background-color: #1CD1B0;
+    height: 38px;    
+    position: fixed;
+    width: 100%;
+    top: 0; /* Asegura que esté en la parte superior */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 1.5rem;
+    z-index: 2;
+}
+
+.titulo{
+    background-color: #00669F;
+    height: 101px;
+    margin-top: 38px; /* Agrega margen superior para evitar superposición */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 1.5rem;
+}
+
+.footer{
+    background-color: #00669F;
+    height: 51px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 1.5rem;
+}
+
+.boton{
+    background-color: #00669F;
+    border: #00669F;
+    height: 48.52px;
+    width: 128.78px;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 83px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    z-index: 1;
+}
+
+.card{
+    background-color: #f3f3f3;
+    position: relative;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+h3{
+    margin-top: 55px;
+    text-align: center;
+}
+
+p{
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.foto{
+    border-radius: 50%;
+    position: absolute;
+    left:83px;
+    top: 8rem;
+}
+
+span{
+    width: 300px;
+    height: 529px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.corazon{
+    position: relative;
+    bottom: 182px;
+    left: 15px;
+}
