@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Quicksand&display=swap');
+
+*{
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #9370DB;
+}
+
+body{
+    background-color: #E6E6FA;
+}
+
