@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    padding: 10px 20px;
+    color: white;
+    background-color: #222222;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo{
+    width: 92px;
+    height: 80px;
+}
+
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    justify-content: space-around;
+    width: 284px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.titulo{
+    padding: 0 0 0 16px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pizza{
+    color: #39B24A;
+}
+
+.front{
+    color: #FC200C;
+}
+
+footer{
+    background-color: #222222;
+    height: 150px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+}
+
+.titulo2{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0 0 16px;
+}
+
+.listafooter{
+    line-height: 1.6rem;
+}
+
+.cosoabajo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+main{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 30px 0 30px 0;
+    background-color: #F5F5F5;
+}
+
+.ladoizq{
+    position: relative;
+    width: 490px;
+}
+
+.ladoder{
+    position: relative;
+    width: 491px;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.podio{
+    position: absolute;
+    font-size: 24px;
+    color: #FC200C;
+    font-weight: bold;
+    top: 20px;
+    left: 160px;
+}
+
+.pizza2{
+    width: 92px;
+    height: 129px;
+    position: absolute;
+    top: 130px;
+    right: 60px;
+}
+
+.top{
+    font-size: 20px;
+    font-weight: bold;
+    color: #222222;
+    position: absolute;
+    top: 86px;
+    left: 50px;
+}
+
+.listapizzas{
+    font-size: 16px;
+    font-weight: bold;
+    color: #222222;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    line-height: 2rem;
+}
+
+.parrafo1{
+    position: absolute;
+    font-size: 24px;
+    color: #FC200C;
+    font-weight: bold;
+    z-index: 1;
+    top: 20px;
+    padding: 0 0 0 16px;
+}
+
+.comprando{
+    color: white;
+}
