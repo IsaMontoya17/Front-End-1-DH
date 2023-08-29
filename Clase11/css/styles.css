@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.descuento{
+    background-color: #1CD1B0;
+    height: 38px;    
+    position: fixed;
+    width: 100%;
+    top: 0; /* Asegura que esté en la parte superior */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 1.5rem;
+    z-index: 2;
+}
+
+.boton{
+    background-color: #00669F;
+    border: none;
+    height: 48.52px;
+    width: 128.78px;
+    color: white;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    z-index: 1;
+}
+
+.card{
+    
+    background-color: #f3f3f3;
+    position: relative;
+    width: 300px;
+    height: auto;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    margin-bottom: 20px; 
+}
+
+h3{
+    margin-top: 55px;
+    text-align: center;
+}
+
+p{
+    margin-top: 6px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.foto{
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 8rem;
+    width: 128px;
+    height: 128px;
+    
+}
+
+.corazon{
+    position: relative;
+    bottom: 182px;
+    left: 15px;
+}
+
+.fondo{
+    width: 300px;
+    height: 194px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+footer{
+    background-color: #00669F;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.textofooter{
+    flex: 1; /* Toma el espacio disponible */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.mas{
+    position: absolute;
+    top: 34rem;
+    right: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #00669F;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.github{
+    width: 10%;
+    padding-right: 20px;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-right: 20px;
+    background-color: #001D2D;
+    height: 40px;
+    align-items: center;
+}
+
+.lista{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.header{
+    display: flex;
+    background-color: #00669F;
+    height: 101px;
+    margin-top: 38px; /* Agrega margen superior para evitar superposición */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 1.5rem;
+    color: white;
+}
+
+.titulo{
+    font-size: 25px;
+}
+
+@media(max-width: 414px){
+
+    .card, .fondo{
+        width: 230px;
+        height: auto;
+    }
+
+    .fondo{
+        height: auto;
+    }
+
+    .corazon{
+        bottom: 120px;
+    }
+
+    .foto{
+        width: 100px;
+        height: 100px;
+        top: 5rem;
+    }
+
+    p, .textofooter{
+        font-size: 12px;
+        margin-top: 1px;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    .textofooter{
+        display: block;
+        line-height: 60px;
+        width: 100%;
+        text-align: center; 
+    }
+
+    h3{
+        margin-top: 22px;
+    }
+
+    .boton{
+        height: 40px;
+        width: 80px;
+    }
+
+    .mas{
+        top: 37rem;
+        left: 21rem;
+    }
+
+    .github{
+        width: 20vw;
+    } 
+    
+}
+
+@media(max-width: 1024px){
+
+    .card, .fondo{
+        width: 340px;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .fondo{
+        height: auto;
+    }
+
+    .corazon{
+        bottom: 230px;
+        left: 25px;
+        width: 50px;
+    }
+
+    .foto{
+        width: 140px;
+        height: 140px;
+        top: 9rem;
+    }
+
+    p, .textofooter{
+        font-size: 17px;
+        margin-top: 1px;
+    }
+
+    h3{
+        margin-top: 0px;
+    }
+
+    .boton{
+        margin-top: 10px;
+        height: 50px;
+        width: 150px;
+    }
+
+    .mas{
+        width: 60px;
+        height: 60px;
+        top: 51rem;
+        right: 1.5rem;
+    }
+
+    .github{
+        width: 15%;
+        padding-right: 2rem;
+    }
+}
+
