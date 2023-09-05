@@ -79,11 +79,9 @@ a:hover{
 }
 
 .banner1{
-    /*margin-top: 5rem;*/
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /*height: 461px;*/
     height: auto;
     padding-bottom: 80px;
 }
@@ -91,7 +89,6 @@ a:hover{
 
 .hombrecamisaamarilla{
     width: 450px;
-    /* width: 100%; */
 }
 
 .banner1_col_1{
@@ -140,7 +137,6 @@ a:hover{
     flex-direction: column;
     align-items: center;
     width: 42%;
-    /*padding-right: 50px;*/
 }
 
 .banner2_col_2{
@@ -148,7 +144,6 @@ a:hover{
     flex-direction: column;
     align-items: center;
     width: 42%;
-    /*padding-right: 50px;*/
 }
 
 .banner2_col_1 p:nth-child(1){
@@ -168,11 +163,9 @@ a:hover{
 .noticias{
     display: flex;
     flex-direction: column;
-    /*justify-content: space-around;*/
     justify-content: center;
     align-items: center;
     height: 428px auto;
-    /*width: 100vw;*/
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -182,7 +175,6 @@ a:hover{
 .noticias_fil_1{
     display: flex;
     flex-direction: row;
-    /*align-items: flex-start;*/
     justify-content: space-around;
     width: 100%;
 }
@@ -190,7 +182,6 @@ a:hover{
 .noticias_fil_2{
     display: flex;
     flex-direction: row;
-    /*align-items: flex-start;*/
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -334,18 +325,14 @@ a:hover{
 
 .mejores{
     display: flex;
-    /*flex-wrap: wrap;*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*height: 200px auto;*/
     height: auto;
-    /*margin-bottom: 2rem;*/
 }
 
 .mejores_fil1{
     display: flex;
-    /*flex-wrap: wrap;*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -353,7 +340,6 @@ a:hover{
 
 .mejores_fil2{
     display: flex;
-    /*flex-wrap: wrap;*/
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -362,7 +348,6 @@ a:hover{
 
 .mejores_titulo{
     display: flex;
-    /*flex-wrap: wrap;*/
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -468,11 +453,9 @@ a:hover{
 .banner3{
     display: flex;
     flex-direction: column;
-    /*flex-wrap: wrap;*/
     justify-content: center;
     align-items: center;
     background-color: #8B48BF;
-    /*padding: 0 140px;*/
     height: 224px auto;
 }
 
@@ -860,7 +843,6 @@ a:hover{
 
     .mejores_titulo{
         display: flex;
-        /*flex-wrap: wrap;*/
         flex-direction: row;
         justify-content: center;
         align-items: center;
@@ -877,10 +859,7 @@ a:hover{
     }
 
     .card{
-        /*display: block;*/
-        /*clear: both;*/
         background-color: #FAFAFA;
-        /*width: 380px;*/
         width: 445px auto;
         height: 254px auto;
         position: relative;
@@ -895,11 +874,9 @@ a:hover{
     .banner3{
         display: flex;
         flex-direction: column;
-        /*flex-wrap: wrap;*/
         justify-content: center;
         align-items: center;
         background-color: #3CDDF3;
-        /*padding: 0 140px;*/
         height: 366px auto;
         padding-top: 10px;
         padding-bottom: 60px;
@@ -919,7 +896,6 @@ a:hover{
     }
 
     .banner3 .banner3_fil2 p{
-        /*display: none;*/
         color: #FFFFFF;
         font-size: 40px;
         font-weight: bold;
@@ -1003,7 +979,6 @@ a:hover{
     }
 
     .card{
-        /* margin: 20px; */
         margin-top: 50px;
     }
 
