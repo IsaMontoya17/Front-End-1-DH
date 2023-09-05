@@ -555,7 +555,7 @@ ul li a {
 }
 
 @media(max-width:480px) {
-    .header {
+    .header{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -564,102 +564,211 @@ ul li a {
         width: 367.68px auto;
     }
 
-    .header1,
-    .header3 {
+    .header1, .header3{
         width: 5%;
     }
 
-    .header2 {
+    .header2{
         width: 95%;
     }
 
-    .header2 img {
+    .header2 img{
         height: 25px;
         width: 107.68px;
     }
 
-    .header2 .header_navbar {
+    .header2 .header_navbar{
         display: none;
     }
 
-    .header2 button {
+    .header2 button{
         display: none;
     }
-
-    .header2::after {
+    .header2::after{
         content: url("./../img/icon-hamburger.svg");
         alt: "imagen";
     }
 
-    .banner1 {
-        /*margin-top: 5rem;*/
+    .banner1{
         display: flex;
         flex-direction: column;
         justify-content: right;
         align-items: center;
-        /*height: 461px;*/
         height: auto;
         padding-bottom: 80px;
     }
 
-    .banner1_col_1 {
+    .banner1_col_1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 80%;
+    }
+    
+    .banner1_col_2{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         width: 80%;
     }
 
-    .banner1_col_2 {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        width: 80%;
-    }
-
-    .hombrecamisaamarilla {
+    .hombrecamisaamarilla{
         width: 80%;
         height: 80%;
     }
 
-    .banner1_col_2 p:nth-child(1) {
+    .banner1_col_2 p:nth-child(1){
         font-size: 45px;
         font-weight: bold;
         color: #232C50;
         text-align: right;
     }
 
-    .banner1_col_2 p:nth-child(2) {
+    .banner1_col_2 p:nth-child(1){
+        font-size: 45px;
+        font-weight: bold;
+        color: #232C50;
+        text-align: right;
+    }
+    
+    .banner1_col_2 p:nth-child(2){
         font-size: 17px;
         font-weight: lighter;
         color: #000000;
         text-align: right;
     }
 
-    .banner2 {
+    .banner1_col_2 p:nth-child(1) br:nth-child(3), .banner1_col_2 p:nth-child(2) br:nth-child(1), 
+    .banner2_col_1 p:nth-child(1) br:nth-child(1){
+        display: none;
+    }
+
+    .banner2_col_2 p{
+        display: none;
+    }
+
+    .banner2_col_2::after{
+        content: "Manage provides all the functionality your teas needs, without the complexity. Our software is tailor-made for modern digital product teams";
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: lighter;
+        text-align: left;
+    }
+
+    .banner2{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 168px auto;
         background-color: #3CDDF3;
+        padding-top: 40px;
+        padding-bottom: 20px;
     }
 
-    .banner2_col_1 {
+    .banner2_col_1{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 80%;
-        /*padding-right: 50px;*/
+        width: 90%;
     }
-
-    .banner2_col_2 {
+    
+    .banner2_col_2{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 80%;
-        /*padding-right: 50px;*/
+        width: 90%;
     }
 
+    .noticias{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 428px auto;
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 40px;
+        background-color: #FFFFFF;
+    }
+
+    .noticias_fil_1, .noticias_fil_2{
+        display: block;
+        /*clear: both;*/
+        width: 85%;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .noticia_fil_1_col_1{
+        background-color: rgba(139, 72, 191, 0.3);
+        border: none;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        height: 43px;
+        width: 446px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #B3B2B7;
+    }
+
+    .noticia_fil_1_col_1 .c2 p:nth-child(2){
+        display: none;
+    }
+
+    .noticia_fil_1_col_2{
+        background-color: rgba(139, 72, 191, 0.3);
+        border: none;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        height: 43px;
+        width: 446px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #323851;
+    }
+
+    .noticia_fil_1_col_2 .c2 p:nth-child(2){
+        display: none;
+    }
+
+    .noticia_fil_1_div2, .noticia_fil_1_div3, .noticia_fil_1_div2 p, .noticia_fil_1_div3 p{
+        display: flex;
+        padding: 10px;
+        font-size: 16.3px;
+        font-weight: lighter;
+        color: #B3B2B7;
+        width: 100%;
+    }
+
+    .noticia_fil_2_col_1{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width:80%;
+        background-color: rgba(139, 72, 191, 0.3);
+        border: none;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        height: 43px;
+        width: 446px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #323851;
+    }
+
+    .noticia_fil_2_col_1 .c2 p:nth-child(2){
+        display: none;
+    }
+
+    .noticia_fil_2_div1, .noticia_fil_2_div1 p{
+        display: flex;
+        padding: 10px;
+        font-size: 16.3px;
+        font-weight: lighter;
+        color: #B3B2B7;
+        width: 100%;
+    }
     /* isa */
     .banner3 {
         background-color: #3CDDF3;
