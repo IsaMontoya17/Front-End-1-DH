@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=}, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Practica formularios</title>
+</head>
+<body>
+    <header>
+        <section class="descuentos">
+            <p>20% de descuento en todos los productos!</p>
+        </section>
+        <section class="nombretienda">
+            <img src="./img/girlylogo.png" alt="logo" class="logo">
+            <h1>Girly maquillaje</h1>
+        </section>
+        <nav class="navbar">
+            <ul class="listanav">
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Registrarme</a></li>
+                <li><a href="#">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="cajaformulario">
+            <section>
+                <p class="tituloformulario">Añadí tu super!</p>
+            </section>
+            <section>
+                <p class="descripcionformulario">Agregá tu personaje favorito completando las opciones.</p>
+            </section>
+            <form action="#" method="POST">
+                <div class="parent">
+                    <div class="div1">
+                        <label for="Nombre">*Nombre</label>
+                        <input type="text" name="nom" id="Nombre" class="cajanombre">
+                    </div>
+                    <div class="div2">
+                        <label for="Especie">*Especie</label>
+                        <select name="Especie" id="especie" class="comboboxespecie">
+                        </select>
+                    </div>
+                    <div class="div3">
+                        <label for="Fecha">Fecha</label>
+                        <input type="date" name="date" id="Fecha" class="cajafecha">
+                    </div>
+                    <div class="div4">
+                        <label for="Archivos">Agregar Foto</label>
+                        <input type="file" name="foto" id="Archivos" accept=".jpg" class="archivos">
+                    </div>
+                    <div class="div5">
+                        <label for="Descripcion"></label>
+                        <textarea name="des" id="Descripcion" class="cajadescripcion">Descripción</textarea>
+                    </div>
+                    <div class="div6">
+                        <div>
+                            <label for="Poderes">Poderes</label><br>
+                            <input type="checkbox" name="poderes" value="SuperInteligencia">SuperInteligencia<br>
+                            <input type="checkbox" name="poderes" value="Vista de rayo láser">Vista de rayo láser<br>
+                            <input type="checkbox" name="poderes" value="Billetera gorda">Billetera gorda<br>
+                        </div>
+                        <hr class="linea">
+                        <div>
+                            <label for="Tipo de personaje">Tipo de personaje</label><br>
+                            <input type="radio" name="tipo" id="Tipo de personaje" value="Héroe/Heroina">Héroe / Heroina<br>
+                            <input type="radio" name="tipo" id="Tipo de personaje" value="Villano/Villana">Villano / Villana<br>
+                        </div>
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="submit" class="boton">Añadir</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <p>Todos los derechos reservados a FRONT END 1</p>
+        </section>
+    </footer>
+</body>
+</html>
