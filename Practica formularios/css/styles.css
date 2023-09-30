@@ -153,6 +153,10 @@ body{
     margin-top: 10px;
 }
 
+.cajanombre{
+    padding-left: 15px;
+}
+
 .cajafecha{
     display: flex;
     padding-left: 15px;
@@ -218,4 +222,12 @@ a:hover{
 
 .boton {
     cursor: pointer; /* Cambia el cursor a una mano cuando se pasa por encima */
+}
+
+input:focus{
+    background-color: #F5F5F5;
+}
+
+input:invalid{
+    background-color: #FFF0F5;
 }

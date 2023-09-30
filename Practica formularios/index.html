@@ -31,16 +31,19 @@
             <section>
                 <p class="descripcionformulario">Agregá tu personaje favorito completando las opciones.</p>
             </section>
-            <form action="#" method="POST">
+            <form action="/Registro" method="POST">
                 <div class="parent">
                     <div class="div1">
                         <label for="Nombre">*Nombre</label>
-                        <input type="text" name="nom" id="Nombre" class="cajanombre">
+                        <input type="text" name="nom" id="Nombre" class="cajanombre" required>
                     </div>
                     <div class="div2">
                         <label for="Especie">*Especie</label>
                         <select name="Especie" id="especie" class="comboboxespecie">
                             <option value="Especie" selected>Especie</option>
+                            <option value="Gato">Gato</option>
+                            <option value="Perro">Perro</option>
+                            <option value="Unicornio">Unicornio</option>
                         </select>
                     </div>
                     <div class="div3">
