@@ -193,15 +193,15 @@ body{
 }
 
 .quinta-parte p{
-    font-size: 40px;
+    font-size: 12vw;
     font-weight: bold;
     text-align: center;
     padding: 40px 70px;
 }
 
 #go-for-it{
-    width: 134px;
-    height: 44px;
+    width: 35vw;
+    height: 6vh;
     background-color: #232C50;
     color: white;
     text-align: center;
@@ -209,7 +209,7 @@ body{
     border-radius: 50px;
 }
 
-.sexta-parte{
+footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -234,8 +234,53 @@ body{
     color: white;
 }
 
+.listas-footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 35px 0;
+}
 
+.lista-1, .lista-2{
+    list-style: none;
+    color: white;
+    font-size: 3vw;
+    line-height: 28px;
+}
 
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.redes-sociales, .logo-final{
+    width: 5vw;
+}
+
+.sportit-final{
+    width: 15vw;
+}
+
+.logo-footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 40px;
+    gap: 5px;
+}
+
+#copyright{
+    color: #8C8C94;
+    font-size: 2.5vw;
+    width: 100%;
+    text-align: center;
+}
 
 /*tablets*/
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
