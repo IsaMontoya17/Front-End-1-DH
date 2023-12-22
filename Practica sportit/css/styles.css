@@ -24,7 +24,8 @@ body{
 }
 
 #hombre{
-    width: 400px;
+    /*width: 400px;*/
+    width: 82vw;
     height: auto;
     margin-bottom: 80px;
 }
@@ -142,20 +143,18 @@ body{
     justify-content: center;
     align-items: center;
     margin: 40px 20px;
-    height: 230px;
-
 }
 
 .img-persona{
     border-radius: 50px;
-    width: 70px;
+    width: 17vw;
     height: auto;
     position: relative;
     top: -35px;
 }
 
 .persona p{
-    font-size: 14px;
+    font-size: 3vw;
     text-align: center;
     font-weight: bold;
     padding-bottom: 15px;
@@ -208,6 +207,31 @@ body{
     text-align: center;
     border: none;
     border-radius: 50px;
+}
+
+.sexta-parte{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #1E1E26;
+    padding: 35px;
+}
+
+.formulario, .boton-go{
+    border-radius: 50px;
+    height: 44px;
+    border: none;
+}
+
+.formulario{
+    width: 55vw;
+    padding-left: 10px;
+}
+
+.boton-go{
+    width: 13vw;
+    background-color: #8B48BF;
+    color: white;
 }
 
 
