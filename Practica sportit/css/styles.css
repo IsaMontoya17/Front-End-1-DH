@@ -18,13 +18,16 @@ body{
     padding: 30px 50px;
 }
 
+.lista-monitores{
+    display: none;
+}
+
 .primera-parte{
     padding: 30px 50px;
     text-align: right;
 }
 
 #hombre{
-    /*width: 400px;*/
     width: 82vw;
     height: auto;
     margin-bottom: 80px;
@@ -282,14 +285,163 @@ footer{
     text-align: center;
 }
 
+#boton-contacto-monitores{
+    display: none;
+}
+
 /*tablets*/
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+    #hombre{
+        width: 65vw;
+    }
+
+    .contact{
+        width: 155px;
+        height: 60px;
+        font-size: 15px;
+    }
+
+    .segunda-parte{
+        background-color: #8B48BF;
+    }
+
+    .descripcion-parte, .titulo-partes, #texto-titulo2, #texto-titulo, ul li, #copyright{
+        font-size: 17px
+    }
     
+    .boton-go, #go-for-it{
+        font-size: 15px
+    }
+
+    .formulario{
+        font-size: 14px;
+    }
+
+    .quinta-parte p{
+        font-size: 50px;
+        padding: 30px 70px;
+    }
+
+    .quinta-parte{
+        height: 45vh;
+    }
+
+    .redes-sociales{
+        width: 30px;
+    }
+
+    .logo-final{
+        width: 35px;
+        height: 35px;
+    }
+
+    .sportit-final{
+        height: 4vh;
+        width: auto;
+    }
+
+    .persona p{
+        font-size: 18px;
+    }
+
+    .img-persona{
+        width: 100px;
+    }
+
 }
 
 /*laptops y monitores pequeños*/
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+    #hombre{
+        width: 40vw;
+    }
+
+    #barras-menu{
+        display: none;
+    }
+
+    .lista-monitores{
+        display: block;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .lista-monitores li{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .nav-bar{
+        justify-content: space-around;
+        padding: 60px 50px;
+    }
+
+    #boton-contacto-monitores{
+        display: block;
+        width: 134px;
+        height: 44px;
+        background-color: #8B48BF;
+        color: white;
+        border: none;
+        border-radius: 50px;
+    }
+
+    .contact{
+        width: 155px;
+        height: 60px;
+        font-size: 15px;
+    }
+
+    .segunda-parte{
+        background-color: #8B48BF;
+    }
+
+    .descripcion-parte, .titulo-partes, #texto-titulo2, #texto-titulo, ul li, #copyright{
+        font-size: 17px
+    }
     
+    .boton-go, #go-for-it{
+        font-size: 15px
+    }
+
+    .formulario{
+        font-size: 14px;
+    }
+
+    .quinta-parte p{
+        font-size: 50px;
+        padding: 30px 70px;
+    }
+
+    .quinta-parte{
+        height: 45vh;
+    }
+
+    .redes-sociales{
+        width: 30px;
+    }
+
+    .logo-final{
+        width: 35px;
+        height: 35px;
+    }
+
+    .sportit-final{
+        height: 4vh;
+        width: auto;
+    }
+
+    .persona p{
+        font-size: 18px;
+    }
+
+    .img-persona{
+        width: 100px;
+    }
 }
 
 /*monitores grandes*/
