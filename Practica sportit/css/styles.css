@@ -301,6 +301,14 @@ footer{
     display: none;
 }
 
+#persona-monitores{
+    display: none;
+}
+
+#get-to-know{
+    display: none;
+}
+
 /*tablets*/
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
 
@@ -466,27 +474,121 @@ footer{
     
     #texto-titulo2-monitores{
         line-height: 23px;
+        font-size: 14px;
     }
 
-    .descripcion-parte, .titulo-partes, #texto-titulo2, #texto-titulo, ul li, #copyright{
+    .tercera-parte{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        background-color: #FAFAFA;
+        padding: 30px 0;
+    }
+
+    .partes{
+        width: 40vw;
+        padding-left: 0px;
+    }
+
+    .numeracion{
+        font-size: 12px;
+    }
+
+    .descripcion-parte{
+        padding-right: 0px;
+        padding-left: 90px;
+        margin: 10px 0;
+    }
+
+    #subpartes{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 60px;
+    }
+
+    .titulo-partes{
+        background-color: #FAFAFA;
+    }
+
+    #texto-titulo2, #texto-titulo, ul li, #copyright{
         font-size: 17px
     }
-    
-    .boton-go, #go-for-it{
-        font-size: 15px
+
+    #persona-monitores{
+        display: block;
+    }
+
+    #persona-monitores{
+        background-color: #FAFAFA;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
+    }
+
+    .persona{
+        margin: 40px 0;
+    }
+
+    .cartas-personas{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    #more{
+        align-self: center;
+    }
+
+    .persona{
+        width: 30vw;
+    }
+
+    .boton-go{
+        width: 65px;
+        font-size: 14px;
     }
 
     .formulario{
         font-size: 14px;
+        width: 200px;
+    }
+
+    .cuarta-parte{
+        flex-direction: column;
+        align-items: center;
+        padding: 90px 0 120px 0;
+    }
+
+    .quinta-parte {
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #8B48BF;
+        color: white;
+        padding-bottom: 0px;
+        height: 25vh;
+    }
+
+    #go-for-it{
+        font-size: 15px;
+        width: 134px;
+        background-color: white;
+        color: #8B48BF;
     }
 
     .quinta-parte p{
-        font-size: 50px;
-        padding: 30px 70px;
+        display: none;
+        padding: 0;
     }
 
-    .quinta-parte{
-        height: 45vh;
+    #get-to-know{
+        display: block;
+        font-size: 40px;
+        text-align: left;
     }
 
     .redes-sociales{
@@ -504,12 +606,14 @@ footer{
     }
 
     .persona p{
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .img-persona{
-        width: 100px;
+        width: 80px;
     }
+
+
 }
 
 /*monitores grandes*/
