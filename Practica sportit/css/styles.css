@@ -513,7 +513,7 @@ footer{
     }
 
     #texto-titulo2, #texto-titulo, ul li, #copyright{
-        font-size: 17px
+        font-size: 12px
     }
 
     #persona-monitores{
@@ -592,16 +592,16 @@ footer{
     }
 
     .redes-sociales{
-        width: 30px;
+        width: 20px;
     }
 
     .logo-final{
-        width: 35px;
-        height: 35px;
+        width: 25px;
+        height: 25px;
     }
 
     .sportit-final{
-        height: 4vh;
+        height: 3vh;
         width: auto;
     }
 
@@ -613,12 +613,337 @@ footer{
         width: 80px;
     }
 
+    footer{
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    .listas-footer, .logos{
+        width: 0%;
+    }
+
+    .logo-footer-monitores{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .logos {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 15px;
+;
+    }
+
+    .logo-footer{
+        padding: 0 0 100px 15px;
+    }
+
+    .listas-footer{
+        flex-wrap: nowrap;
+        width: 500px;
+    }
+
+    form{
+        position: relative;
+        top: 30px;
+    }
+
+    #copyright{
+        text-align: right;
+        padding-right: 5vw;
+    }
+
+    .lista-1, .lista-2 {
+        line-height: 32px;
+    }
 
 }
 
 /*monitores grandes*/
 @media only screen and (min-width: 1441px) {
     
+    .titulo-monitores{
+        display: block;
+        font-size: 42px;
+        font-weight: bold;
+    }
+
+    .texto-titulo-monitores{
+        display: block;
+        font-weight: bold;
+        line-height: 25px;
+    }
+
+    #titulo{
+        display: none;
+    }
+
+    #texto-titulo{
+        display: none;
+    }
+
+    .div-monitores-primera-parte{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #hombre{
+        width: 35vw;
+    }
+
+    #barras-menu{
+        display: none;
+    }
+
+    .lista-monitores{
+        display: block;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .lista-monitores li{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .nav-bar{
+        justify-content: space-around;
+        padding: 60px 50px;
+    }
+
+    #boton-contacto-monitores{
+        display: block;
+        width: 134px;
+        height: 44px;
+        background-color: #8B48BF;
+        color: white;
+        border: none;
+        border-radius: 50px;
+    }
+
+    .contact{
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+        align-self: flex-end;
+    }
+
+    .primera-parte{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .segunda-parte{
+        background-color: #8B48BF;
+    }
+
+    #titulo2, #texto-titulo2{
+        display: none;
+    }
+
+    .div-monitores-segunda-parte{
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #titulo2-monitores{
+        font-size: 36px;
+        font-weight: bold;
+    }
+    
+    #texto-titulo2-monitores{
+        line-height: 23px;
+        font-size: 14px;
+    }
+
+    .tercera-parte{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        background-color: #FAFAFA;
+        padding: 30px 0;
+    }
+
+    .partes{
+        width: 40vw;
+        padding-left: 0px;
+    }
+
+    .numeracion{
+        font-size: 12px;
+    }
+
+    .descripcion-parte{
+        padding-right: 0px;
+        padding-left: 90px;
+        margin: 10px 0;
+    }
+
+    #subpartes{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 60px;
+    }
+
+    .titulo-partes{
+        background-color: #FAFAFA;
+    }
+
+    #texto-titulo2, #texto-titulo, ul li, #copyright{
+        font-size: 12px
+    }
+
+    #persona-monitores{
+        display: block;
+    }
+
+    #persona-monitores{
+        background-color: #FAFAFA;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
+    }
+
+    .persona{
+        margin: 40px 0;
+    }
+
+    .cartas-personas{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    #more{
+        align-self: center;
+    }
+
+    .persona{
+        width: 30vw;
+    }
+
+    .boton-go{
+        width: 65px;
+        font-size: 14px;
+    }
+
+    .formulario{
+        font-size: 14px;
+        width: 200px;
+    }
+
+    .cuarta-parte{
+        flex-direction: column;
+        align-items: center;
+        padding: 90px 0 120px 0;
+    }
+
+    .quinta-parte {
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #8B48BF;
+        color: white;
+        padding-bottom: 0px;
+        height: 25vh;
+    }
+
+    #go-for-it{
+        font-size: 15px;
+        width: 134px;
+        background-color: white;
+        color: #8B48BF;
+    }
+
+    .quinta-parte p{
+        display: none;
+        padding: 0;
+    }
+
+    #get-to-know{
+        display: block;
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .redes-sociales{
+        width: 20px;
+    }
+
+    .logo-final{
+        width: 25px;
+        height: 25px;
+    }
+
+    .sportit-final{
+        height: 3vh;
+        width: auto;
+    }
+
+    .persona p{
+        font-size: 15px;
+    }
+
+    .img-persona{
+        width: 80px;
+    }
+
+    footer{
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    .listas-footer, .logos{
+        width: 0%;
+    }
+
+    .logo-footer-monitores{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .logos {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 15px;
+;
+    }
+
+    .logo-footer{
+        padding: 0 0 100px 15px;
+    }
+
+    .listas-footer{
+        flex-wrap: nowrap;
+        width: 500px;
+    }
+
+    form{
+        position: relative;
+        top: 30px;
+    }
+
+    #copyright{
+        text-align: right;
+        padding-right: 5vw;
+    }
+
+    .lista-1, .lista-2 {
+        line-height: 32px;
+    }
 }
 
 
