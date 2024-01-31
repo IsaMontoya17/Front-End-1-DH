@@ -659,6 +659,28 @@ footer{
         line-height: 32px;
     }
 
+    .nav-bar ul li:hover{
+        color: #242E5299;
+    }
+
+    ul li:hover{
+        cursor: url('../img/Vector.png'), auto;
+    }
+
+    button:hover{
+        cursor: url('../img/Vector.png'), auto;
+        background-color: rgba(139, 72, 191, 0.7);
+    }
+
+    #boton-contacto-monitores:hover{
+        background-color: rgba(139, 72, 191, 0.7);
+    }
+
+    #go-for-it:hover{
+        background-color: #232C50;
+        color: white;
+    }
+
 }
 
 /*monitores grandes*/
