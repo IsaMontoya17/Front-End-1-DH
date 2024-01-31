@@ -309,6 +309,8 @@ footer{
     display: none;
 }
 
+
+
 /*tablets*/
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
 
@@ -662,9 +664,31 @@ footer{
 /*monitores grandes*/
 @media only screen and (min-width: 1441px) {
     
+    .nav-bar ul li:hover{
+        color: #242E5299;
+    }
+
+    ul li:hover{
+        cursor: url('../img/Vector.png'), auto;
+    }
+
+    button:hover{
+        cursor: url('../img/Vector.png'), auto;
+        background-color: rgba(139, 72, 191, 0.7);
+    }
+
+    #boton-contacto-monitores:hover{
+        background-color: rgba(139, 72, 191, 0.7);
+    }
+
+    #go-for-it:hover{
+        background-color: #232C50;
+        color: white;
+    }
+
     .titulo-monitores{
         display: block;
-        font-size: 42px;
+        font-size: 45px;
         font-weight: bold;
     }
 
@@ -672,6 +696,7 @@ footer{
         display: block;
         font-weight: bold;
         line-height: 25px;
+        font-size: 20px;
     }
 
     #titulo{
@@ -686,7 +711,8 @@ footer{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        justify-content: space-around;
+        gap: 40px;
+        padding-top: 50px;
     }
 
     #hombre{
@@ -706,7 +732,7 @@ footer{
     }
 
     .lista-monitores li{
-        font-size: 15px;
+        font-size: 17px;
         font-weight: bold;
     }
 
@@ -717,8 +743,9 @@ footer{
 
     #boton-contacto-monitores{
         display: block;
-        width: 134px;
-        height: 44px;
+        width: 160px;
+        height: 55px;
+        font-size: 16px;
         background-color: #8B48BF;
         color: white;
         border: none;
@@ -726,9 +753,9 @@ footer{
     }
 
     .contact{
-        width: 150px;
-        height: 50px;
-        font-size: 15px;
+        width: 170px;
+        height: 60px;
+        font-size: 18px;
         align-self: flex-end;
     }
 
@@ -741,6 +768,7 @@ footer{
 
     .segunda-parte{
         background-color: #8B48BF;
+        padding: 40px 20px;
     }
 
     #titulo2, #texto-titulo2{
@@ -761,8 +789,8 @@ footer{
     }
     
     #texto-titulo2-monitores{
-        line-height: 23px;
-        font-size: 14px;
+        line-height: 26px;
+        font-size: 17px;
     }
 
     .tercera-parte{
@@ -771,7 +799,7 @@ footer{
         justify-content: center;
         gap: 20px;
         background-color: #FAFAFA;
-        padding: 30px 0;
+        padding: 50px 0;
     }
 
     .partes{
@@ -780,13 +808,18 @@ footer{
     }
 
     .numeracion{
-        font-size: 12px;
+        font-size: 13px;
+    }
+
+    .mejor{
+        font-size: 42px;
     }
 
     .descripcion-parte{
         padding-right: 0px;
         padding-left: 90px;
         margin: 10px 0;
+        font-size: 17px;
     }
 
     #subpartes{
@@ -798,10 +831,11 @@ footer{
 
     .titulo-partes{
         background-color: #FAFAFA;
+        font-size: 17px;
     }
 
     #texto-titulo2, #texto-titulo, ul li, #copyright{
-        font-size: 12px
+        font-size: 16px
     }
 
     #persona-monitores{
@@ -837,13 +871,13 @@ footer{
     }
 
     .boton-go{
-        width: 65px;
-        font-size: 14px;
+        width: 70px;
+        font-size: 15px;
     }
 
     .formulario{
-        font-size: 14px;
-        width: 200px;
+        font-size: 15px;
+        width: 250px;
     }
 
     .cuarta-parte{
@@ -862,8 +896,8 @@ footer{
     }
 
     #go-for-it{
-        font-size: 15px;
-        width: 134px;
+        font-size: 17px;
+        width: 170px;
         background-color: white;
         color: #8B48BF;
     }
@@ -880,7 +914,7 @@ footer{
     }
 
     .redes-sociales{
-        width: 20px;
+        width: 23px;
     }
 
     .logo-final{
@@ -891,10 +925,12 @@ footer{
     .sportit-final{
         height: 3vh;
         width: auto;
+        position: relative;
+        bottom: 4px;
     }
 
     .persona p{
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .img-persona{
@@ -924,11 +960,12 @@ footer{
 
     .logo-footer{
         padding: 0 0 100px 15px;
+        gap: 9px;
     }
 
     .listas-footer{
         flex-wrap: nowrap;
-        width: 500px;
+        width: 600px;
     }
 
     form{
