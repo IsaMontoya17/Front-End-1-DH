@@ -136,5 +136,35 @@ body{
 
 @media only screen and (min-width: 1240px) {
 
+.grid-container {
+    grid-template-columns: .35fr 1.8fr .4fr .8fr .35fr;
+    width: auto;
+    gap: 10px 0px;
+}
+
+.grid-container{
+    height: 100vh;
+    grid-template-rows: 1fr .1fr 2fr .2fr .1fr; /*no se como arreglarlo*/
+}
+
+.item--cuentas{
+    display: block;
+    grid-column: 4/5;
+}
+
+.item--main{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.item--stories{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#fotoMain {
+    width: 40vw;
+}
+
 }
 
